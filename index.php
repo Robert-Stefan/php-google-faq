@@ -30,11 +30,19 @@
             ]
         ];
     ?>
-
+    <header>
+        
+    </header>
+    
+    <main>
     <?php foreach($faq as $faqs) { ?>
         <h2><?php echo $faqs['question'] ?> </h2>
         <p><?php echo $faqs['answer'] ?> </p>
     <?php } ?>
+    </main>
 
+    <footer>
+    
+    </footer>
 </body>
 </html>
