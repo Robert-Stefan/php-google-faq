@@ -31,14 +31,24 @@
         ];
     ?>
     <header>
-        
+        <h2>Privacy e termini</h2>
+        <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li>Domande frequenti</li>
+        </ul>
+        <hr>
     </header>
     
     <main>
+        <div class="container">
     <?php foreach($faq as $faqs) { ?>
         <h2><?php echo $faqs['question'] ?> </h2>
         <p><?php echo $faqs['answer'] ?> </p>
     <?php } ?>
+    </div>
     </main>
 
     <footer>
